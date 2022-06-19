@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+.bottom-navbar-nav {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.mobile-menu {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    box-shadow: 0 0 11px #bcbcbc;
+    left: 0;
+
+    overflow-x: hidden;
+    position: fixed;
+    right: 0;
+    white-space: nowrap;
+    z-index: 999;
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+.mobile-menu ul li {
+    display: inline-block;
+    list-style: outside none none;
+    overflow: hidden;
+    width:80px;
+    vertical-align: bottom;
+}
+.bottom-nav-item span {
+    color: #666;
+    display: list-item;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.bottom-nav-link {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    overflow: hidden;
+    padding: 16px 6px 12px 6px;
+    text-align: center;
+    vertical-align: bottom;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 69px;
+}
+.bottom-nav-link .fa {
+    color: #ec3323;
+    font-size: 15px;
+}
+.fade-in { visibility: visible; opacity: 1; transition: opacity 1s linear; } .fade-out { visibility: hidden; opacity: 0; transition: visibility 0s 1s, opacity 1s linear; }
+
+ 
+
+/* Mobile Media */
+/* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+   .mobile-menu {
+        display: block;
+    }
+
+    
+
+
+}
+
