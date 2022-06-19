@@ -6,12 +6,12 @@ importScripts('https://www.gstatic.com/firebasejs/4.8.1/firebase-messaging.js');
 
 
  const firebaseConfig = {
-  apiKey: "AIzaSyCK_BJ4lmmqOQdyow3krynQSjHs67FbIuE",
-  authDomain: "test-f1857.firebaseapp.com",
-  databaseURL: "https://test-f1857-default-rtdb.firebaseio.com",
+  apiKey: "APIKEY",
+  authDomain: "authdomain",
+  databaseURL: "DBURL",
   projectId: "test-f1857",
   storageBucket: "test-f1857.appspot.com",
-  messagingSenderId: "1054012487170",
+  messagingSenderId: "MESSAGINGGSENDID",
   appId: "1:1054012487170:web:3b27245c81992785aa591b"
 };
 firebase.initializeApp(firebaseConfig);

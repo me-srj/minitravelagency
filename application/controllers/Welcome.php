@@ -149,11 +149,11 @@ redirect(base_url()."Contact-US");
 	{
 	    if(!empty($this->session->userdata('customer'))){
 	        $data['script']='var firebaseConfig = {
-    apiKey: "AIzaSyCK_BJ4lmmqOQdyow3krynQSjHs67FbIuE",
-    authDomain: "test-f1857.firebaseapp.com",
-    databaseURL: "https://test-f1857-default-rtdb.firebaseio.com",
+    apiKey: "APIKEY",
+    authDomain: "AUTHDOMAIN",
+    databaseURL: "DBURL",
     projectId: "test-f1857",
-    storageBucket: "test-f1857.appspot.com",
+    storageBucket: "Stbucket",
     messagingSenderId: "1054012487170",
     appId: "1:1054012487170:web:3b27245c81992785aa591b"
   };
@@ -178,7 +178,7 @@ messaging.requestPermission().then(function(){
 function getRegisterToken(){
 	// Get registration token. Initially this makes a network call, once retrieved
 // subsequent calls to getToken will return from cache.
-messaging.getToken({vapidKey: "BFz9V9xqGk_IKJWMDjpdTxOHm4lx_zI00zQcW3H2KuZVSPtp7Lc_tgZZ0ZLSHZuwGsBgAricUqK3b_0Q4Y-oi9Q"}).then(function(currentToken){
+messaging.getToken({vapidKey: "token"}).then(function(currentToken){
 	saveToken(currentToken);
 	console.log(currentToken);
   if (currentToken) {

@@ -84,9 +84,9 @@ defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-define('RAZOR_KEY','rzp_live_KcHjJi4x5ka8mC');
-define('RAZOR_SECRET_KEY','f3mVh4ggQxcHcJ6chnqlAiao');
+define('RAZOR_KEY','rkey');
+define('RAZOR_SECRET_KEY','rskey');
 //fmc
-define('WEB_SERVER_KEY','AAAA9WgKNgI:APA91bGbmlTeg8Tyldg-d7-1NkRsll-Cdt4vZgxvHmj12BBwwg-e_W0BJdqbYa73auVAp2aabUDbA-nzmEh00xZvUFWQP1iYJ69iw64nHf6dFYv4c0XqSuojUFud96OntbrblBgrpopd');
-define('ANDROID_SERVER_KEY','AAAAXe9KdZU:APA91bG6dRfJWDjD_F0qBnoonqbmybbGwwPw9Fdd36XacomtLE-EuNnuNE8VLd_m7oXYtv2W2uVOOQlh3iFKjicGI4ZmM79C0h5dVKgzGixxGCL2ekFaRNkYKuYKKaHd4zGEJgaDjxR_');
-define('ANDROID_PILOT_SERVER_KEY','AAAANXeAj9E:APA91bEAPkWYmKO7NQ_S4U-fB0Mq1g2IomDRVH3BIKlEoyL5BcVoRXQ0XwQ7ALQFOsR1ZGsUYWpm6ItQYhbgzOXYu9MT6e3-pHGdbGfhF1O6gBJs7OjRVCRiBu43sXD6VT9NiZNaIL6-');
+define('WEB_SERVER_KEY','webserverkey');
+define('ANDROID_SERVER_KEY','androidserverkey');
+define('ANDROID_PILOT_SERVER_KEY','androidpilotserverkey');
