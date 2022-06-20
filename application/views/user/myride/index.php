@@ -76,7 +76,7 @@ else
                       </div>
                     <div class="divider"></div>
                     <div id="mapImage">
-                        <!-- <img alt=" " class="map-img" src="//maps.googleapis.com/maps/api/staticmap?size=640x320&amp;maptype=roadmap&amp;markers=icon%3Ahttp%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Folacabsimages%2Finvoice%2FStart2x.png%7C23.3710257%2C85.3389805&amp;markers=icon%3Ahttp%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Folacabsimages%2Finvoice%2FEnd2x.png%7C23.3743701%2C85.3481982&amp;path=weight%3A5%7Ccolor%3A0x4379ai9%7C&amp;client=gme-anitechnologiespvt&amp;channel=mirage&amp;signature=zgu9f9ksVrV58IZ1Iy90nUVpy_c%3D"> -->
+                        <!-- <img alt="image rmvd " class="map-img" src=""> -->
                         <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 600 400" xml:space="preserve">
                             <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"></path>
                             <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982   349.898,231.643 "></polygon>
@@ -93,16 +93,12 @@ else
                        <img srcset="<?=base_url().'app-assets\img\utemp'?>\ic_micro.png" alt="micro">
                         </div>
                     </div>
-                    <!-- <div class="resize act-btns" on-click="toggleMapSize">
-                        <ola-icon class="expand-icon" hidden$="[[!isMapExpanded]]" key="RESIZE_CONTRACT" fill="#898989"></ola-icon>
-                        <ola-icon class="expand-icon" hidden$="[[isMapExpanded]]" key="RESIZE_EXPAND" fill="#898989"></ola-icon>
-                    </div> -->
                 </div>
                 <div style="transform: translateY(0px)" class="cards-container ptr show-false">
             <div class="card bg-white">
                     <div class="row elastic-row car-row">
                         <div class="left label car-label">
-                            <img srcset="https://olawebcdn.com/images/v1/ic_micro.png 1x, https://olawebcdn.com/images/v1/ic_micro@2x.png 2x, https://olawebcdn.com/images/v1/ic_micro@3x.png 3x" src="https://olawebcdn.com/images/v1/ic_micro@2x.png">
+                            <img src="" alt="add a image">
                         </div>
 
                         <div class="right-relative value text two-lines">
@@ -229,8 +225,7 @@ else if ($ride['ride'][0]=="cancel") {
                                     <div class="row-sm xs ">
                                         <div class="pay-label">
                                             Your Trip ID : <b class="badge text-info">TRIP-<?= $ride['ride'][0]->id ?></b>
-                                            <ola-icon class="icon-position" key="INFO_CIRCLE_2" viewbox="0 0 22 22" height="22px" width="22px" fill="#448aff" hidden="">
-                                            </ola-icon>
+                                            <span>Icon rmved</span>
                                         </div>
                                         <div class="pay-value">₹ <?= $ride['ride'][0]->fair ?></div>
                                     </div>
@@ -246,8 +241,7 @@ else if ($ride['ride'][0]=="cancel") {
                                     <div class="row-sm xs ">
                                         <div class="pay-label">
                                             Rounded Off
-                                            <ola-icon class="icon-position" key="INFO_CIRCLE_2" viewbox="0 0 22 22" height="22px" width="22px" fill="#448aff" hidden="">
-                                            </ola-icon>
+                                        Icon rmvd
                                         </div>
                                         <div class="pay-value">- ₹ 0.08</div>
                                     </div>
@@ -279,8 +273,7 @@ else if ($ride['ride'][0]=="cancel") {
                                     <div class="row-sm xs bold">
                                         <div class="pay-label">
                                             Total Payable
-                                            <ola-icon class="icon-position" key="INFO_CIRCLE_2" viewbox="0 0 22 22" height="22px" width="22px" fill="#448aff" hidden="">
-                                            </ola-icon>
+  Icon rmvd
                                         </div>
                                         <div class="pay-value">₹ <?= $ride['ride'][0]->fair+$ride['ride'][0]->tax ?></div>
                                     </div>
@@ -359,8 +352,7 @@ if ($ride['ride'][0]->payment=="paid") {
                                         <div class="pay-label">
 <i class="badge badge-success">Paid <?= $ride['ride'][0]->ptype ?></i>
 <i class="badge badge-info">Wallet Used: <?= $ride['ride'][0]->wallet_pay ?></i>
-                                            <ola-icon class="icon-position" key="INFO_CIRCLE_2" viewbox="0 0 22 22" height="22px" width="22px" fill="#448aff" hidden="">
-                                            </ola-icon>
+                                            Icon rmvd
                                         </div>
                                         <div class="pay-value">₹ <?= $ride['ride'][0]->fair+$ride['ride'][0]->tax ?></div>
                                     </div>
